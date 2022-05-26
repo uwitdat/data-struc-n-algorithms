@@ -1,4 +1,4 @@
-// ============ LINKED LIST ========= //
+// ============ LINKED LISTS ========= //
 
 /* 
     A linked list data structure is a series of hash tables (Objects)

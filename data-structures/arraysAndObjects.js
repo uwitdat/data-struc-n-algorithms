@@ -1,4 +1,4 @@
-// ===== ARRAY ====== //
+// ===== ARRAYS ====== //
 
 /* 
   An array is a data structure which stores values based on a 
@@ -12,7 +12,7 @@ index value =>   0  1  2
   - As well as performing operations on the final entry of the Array
 */
 
-// ===== Object ====== //
+// ===== OBJECTS ====== //
 
 /* 
   An  object is a data structure which stores values based off an 

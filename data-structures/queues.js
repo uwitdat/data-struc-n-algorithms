@@ -1,4 +1,4 @@
-// ====== QUEUE ======= //
+// ====== QUEUES ======= //
 
 /* 
   Data structure which follows: first-in-first-out practice (FIFO) 

@@ -1,4 +1,4 @@
-// ====== BINARY TREE ======== //
+// ====== BINARY TREES ======== //
 
 /* 
   A binary tree is a data structure which follows a specific rule set.
