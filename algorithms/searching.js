@@ -196,9 +196,35 @@ function binarySearch(array, value) {
   return -1;
 }
 
-console.log(
-  'binary:',
-  binarySearch([
-    1, 4, 6, 9,
-    15, 20, 170
-  ], 15))
+
+function binaryTwo(val, array) {
+  let clone = [...array];
+
+  for (let i = 1; i <= array.length; i++) {
+    if (!clone.length) break;
+
+    let end = clone.length - 1;
+    let middle = Math.round((end - 0) / 2);
+
+    if (clone[middle] === val) {
+      return 'FOUND => ' + val + ' ' + 'on try: ' + i;
+    }
+
+    if (val > clone[middle]) {
+      clone = clone.slice(middle + 1);
+    } else {
+      clone = clone.slice(0, middle);
+    }
+  }
+
+  return -1;
+}
+
+
+console.log('binary two =>',
+  binaryTwo(1000, [1, 4, 6, 9, 15, 20, 170, 300, 560, 900, 1000])
+);
+
+console.log('binary: =>',
+  binarySearch([1, 4, 6, 9, 15, 20, 170], 15)
+);
