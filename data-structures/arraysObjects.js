@@ -21,9 +21,7 @@ index value =>   0  1  2
   EX: {
         key: some-value
       }
-
 */
-
 
 
 // =========== Comparing values in two arrays ============//
@@ -128,7 +126,7 @@ console.log(
   )
 )
 
-// ===== find first recursive value in array ===== \\
+// ===== find first recursive value in array using object ===== \\
 
 const myArray1 = [2, 5, 1, 2, 3, 5, 1, 2, 4] // => 2; 
 const myArray2 = [2, 1, 1, 2, 3, 5, 1, 2, 4] // => 1;
