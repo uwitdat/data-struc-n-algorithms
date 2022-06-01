@@ -132,11 +132,11 @@ console.log(breadFirstSearchRecursive([tree.root], []));
 
 function depthFirstSearchInOrder(node, list) {
   if (node.left) {
-    depthFirstSearchInOrder(node.left, list)
+    depthFirstSearchInOrder(node.left, list);
   }
   list.push(node.value);
   if (node.right) {
-    depthFirstSearchInOrder(node.right, list)
+    depthFirstSearchInOrder(node.right, list);
   }
 
   return list;
@@ -147,10 +147,10 @@ function depthFirstSearchPreOrder(node, list) {
   list.push(node.value);
 
   if (node.left) {
-    depthFirstSearchPreOrder(node.left, list)
+    depthFirstSearchPreOrder(node.left, list);
   }
   if (node.right) {
-    depthFirstSearchPreOrder(node.right, list)
+    depthFirstSearchPreOrder(node.right, list);
   }
   return list;
 }
@@ -158,10 +158,10 @@ function depthFirstSearchPreOrder(node, list) {
 function depthFirstSearchPostOrder(node, list) {
 
   if (node.left) {
-    depthFirstSearchPostOrder(node.left, list)
+    depthFirstSearchPostOrder(node.left, list);
   }
   if (node.right) {
-    depthFirstSearchPostOrder(node.right, list)
+    depthFirstSearchPostOrder(node.right, list);
   }
   list.push(node.value);
 

@@ -1,7 +1,8 @@
 
 <h1> BIG O NOTATION </h1>
 
-
+All content in this repo makes reference to this Udemy course =>>
+[Data Stuctures and algorithms couse](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
 
  1. O(n) --> linear Time: n is relative to number of inputs. EX: a loop through 5 items is O(5). TIME COMPLEXITY === FAIR
 
